@@ -251,7 +251,7 @@ Where  `ocicrypt.json` may look like
 
 You can use any test CA to create the client and server certificates.  Here is a sample ca you can set the correct SAN values [ca_scratchpad](https://github.com/salrashid123/ca_scratchpad)
 
-##### Cloud Run
+#### Cloud Run
 
 You can run the sample grpc server locally or directly invoke it on cloud run at:
 
