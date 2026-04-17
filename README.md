@@ -45,7 +45,7 @@ The corresponding ocicrypt config would be
 ### TLS
 
 ```bash
-go run main.go --grpcport=:50051
+go run main.go --grpcport=:50051  -tlsCert=certs/localhost.crt -tlsKey=certs/localhost.key
 ```
 
 The corresponding ocicrypt config would be
@@ -68,7 +68,7 @@ The corresponding ocicrypt config would be
 ### mTLS
 
 ```bash
-go run main.go --grpcport=:50051
+go run main.go --grpcport=:50051 -usemTLS -rootCA=certs/root-ca.crt  -tlsCert=certs/localhost.crt -tlsKey=certs/localhost.key
 ```
 
 The corresponding ocicrypt config would be
